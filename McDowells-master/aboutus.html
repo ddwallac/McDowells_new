@@ -37,6 +37,142 @@
         </div>
     </header>
 
+    <div id="orderModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-white">
+                    <h3 class="modal-title">Burgers</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form id="orderModal">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4>
+                                            <a data-toggle="collapse" data-target="#bigMick">Big Mick</a>
+                                        </h4>
+                                        <div class="collapse" id="bigMick" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <form>
+                                                    <input type="checkbox" id="lettuce" name="lettuce"
+                                                        value="nolettuce">
+                                                    <label for="lettuce"> No lettuce</label><br>
+                                                    <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                                                    <label for="cheese"> No cheese</label><br>
+                                                    <input type="checkbox" id="pickles" name="pickles" value="pickles">
+                                                    <label for="pickles"> No pickles</label><br>
+                                                    <input type="checkbox" id="onions" name="onions" value="onions">
+                                                    <label for="onions"> No onions</label><br>
+                                                    <input type="checkbox" id="specialSauce" name="specialSauce"
+                                                        value="specialSauce">
+                                                    <label for="specialSauce"> No special sauce</label>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4>
+                                            <a data-toggle="collapse" data-target="#quarter">1/4 pounder w/cheese</a>
+                                        </h4>
+                                        <div class="collapse" id="quarter" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <form>
+                                                    <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                                                    <label for="cheese"> No cheese</label><br>
+                                                    <input type="checkbox" id="pickles" name="pickles" value="pickles">
+                                                    <label for="pickles"> No pickles</label><br>
+                                                    <input type="checkbox" id="onions" name="onions" value="onions">
+                                                    <label for="onions"> No onions</label><br>
+                                                    <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+                                                    <label for="ketchup"> No ketchup</label><br>
+                                                    <input type="checkbox" id="mustard" name="mustard" value="mustard">
+                                                    <label for="mustard"> No mustard</label><br>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4>
+                                            <a data-toggle="collapse" data-target="#cheeseburger">Cheeseburger</a>
+                                        </h4>
+                                        <div class="collapse" id="cheeseburger" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <form>
+                                                    <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                                                    <label for="cheese"> No cheese</label><br>
+                                                    <input type="checkbox" id="pickles" name="pickles" value="pickles">
+                                                    <label for="pickles"> No pickles</label><br>
+                                                    <input type="checkbox" id="onions" name="onions" value="onions">
+                                                    <label for="onions"> No onions</label><br>
+                                                    <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+                                                    <label for="ketchup"> No ketchup</label><br>
+                                                    <input type="checkbox" id="mustard" name="mustard" value="mustard">
+                                                    <label for="mustard"> No mustard</label><br>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4>
+                                            <a data-toggle="collapse" data-target="#doublecheese">Double
+                                                Chesseburger</a>
+                                        </h4>
+                                        <div class="collapse" id="doublecheese" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <form>
+                                                    <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                                                    <label for="cheese"> No cheese</label><br>
+                                                    <input type="checkbox" id="pickles" name="pickles" value="pickles">
+                                                    <label for="pickles"> No pickles</label><br>
+                                                    <input type="checkbox" id="onions" name="onions" value="onions">
+                                                    <label for="onions"> No onions</label><br>
+                                                    <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+                                                    <label for="ketchup"> No ketchup</label><br>
+                                                    <input type="checkbox" id="mustard" name="mustard" value="mustard">
+                                                    <label for="mustard"> No mustard</label><br>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4>
+                                            <a data-toggle="collapse" data-target="#hamburger">hamburger</a>
+                                        </h4>
+                                        <div class="collapse" id="hamburger" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <form>
+                                                    <input type="checkbox" id="pickles" name="pickles" value="pickles">
+                                                    <label for="pickles"> No pickles</label><br>
+                                                    <input type="checkbox" id="onions" name="onions" value="onions">
+                                                    <label for="onions"> No onions</label><br>
+                                                    <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+                                                    <label for="ketchup"> No ketchup</label><br>
+                                                    <input type="checkbox" id="mustard" name="mustard" value="mustard">
+                                                    <label for="mustard"> No mustard</label><br>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
@@ -144,7 +280,7 @@
                             class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
                             class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-instagram" href="http://youtube.com/"><i
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
                             class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-sm-4">
