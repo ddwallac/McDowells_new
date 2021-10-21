@@ -5,20 +5,20 @@ h1, h2, h3, h4 {
   font-family: "Roboto Slab", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: black; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: white; }
 
 .site-footer {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-color: red;
+  background-color: #1F3D0C;
   color: white; }
 
 .row-content {
@@ -27,10 +27,11 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: red; }
+  background-color: #1F3D0C;
+}
 
-.carousel {
-  border: solid #5637dd; }
+.carousel-inner {
+  border: solid #1F3D0C; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
